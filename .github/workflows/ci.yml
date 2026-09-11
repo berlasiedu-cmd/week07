@@ -40,7 +40,9 @@ jobs:
           - service: enrollment-service
             database: enrollments
             port: 5437
-
+  # =========================================================
+  # Services
+  # =========================================================
     services:
       postgres:
         image: postgres:16
