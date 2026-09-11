@@ -1,7 +1,7 @@
 name: CI Pipeline
 
 on:
-  # Manual trigger for the workflow
+  # Manual Trigger for the Workflow
   workflow_dispatch:
   push:
     branches: [main]
